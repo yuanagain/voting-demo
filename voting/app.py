@@ -10,7 +10,7 @@ import signal
 import sys
 
 optionA = "Futbol"
-optionB = "Soccer"
+optionB = "Soccer "
 name = optionA + " VS " + optionB
 
 redis = Redis(host="redis", db=0)
